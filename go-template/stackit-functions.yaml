@@ -1,0 +1,5 @@
+function:
+  name: go-template
+  runtime: go
+  trigger: http
+  created: 2026-01-01T00:00:00.000000+01:00

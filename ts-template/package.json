@@ -1,0 +1,21 @@
+{
+  "name": "fn",
+  "private": true,
+  "type": "commonjs",
+  "main": "dist/handler.js",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.11.30"
+  }
+}

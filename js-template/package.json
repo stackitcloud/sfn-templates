@@ -1,0 +1,9 @@
+{
+  "name": "fn",
+  "private": true,
+  "type": "commonjs",
+  "main": "handler.js",
+  "scripts": {
+    "build": "echo \"no build (js)\""
+  }
+}
