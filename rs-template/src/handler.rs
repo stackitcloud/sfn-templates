@@ -6,7 +6,7 @@ use log::info;
 pub async fn index(req: HttpRequest, config: Data<HandlerConfig>) -> HttpResponse {
     info!("{:#?}", req);
     if req.method() == Method::GET && req.path() == "/" {
-        HttpResponse::Ok().body("Hello from STACKIT Functions")
+       return HttpResponse::Ok().body("Hello from STACKIT Functions");
     }
 
     HttpResponse::NotFound().body("not_found")
