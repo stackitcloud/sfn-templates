@@ -4,7 +4,7 @@ function:
   trigger: http
   created: 2026-01-01T00:00:00.000000+01:00
   buildEnvs:
-    - name: BP_NATIVE_IMAGE
+    - key: BP_NATIVE_IMAGE
       value: 'false'
-    - name: BP_JVM_VERSION
+    - key: BP_JVM_VERSION
       value: '21'
