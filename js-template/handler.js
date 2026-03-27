@@ -8,11 +8,13 @@ function newFn() {
       const { method, path, cloudevent } = context;
 
       if (method === "GET" && path === "/") {
-        return { statusCode: 200, body: { "Hello from STACKIT Functions" } };
-
+        return {
+          statusCode: 200,
+          body: "Hello from STACKIT Functions",
+        };
       }
 
-      return { statusCode: 404, body: { error: "not_found", path, method } };
+      return { statusCode: 404, body: "not_found" };
     },
   };
 }
